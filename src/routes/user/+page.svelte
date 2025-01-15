@@ -18,23 +18,23 @@
       <p class="mt-4 text-lg text-gray-700">Mari mulai belajar dengan fitur-fitur berikut:</p>
       
       <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
-        <div class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
+        <a href="/user/kuis" class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
             <img src="/assets/Kuis.jpg" alt="">
           <h2 class="text-xl font-semibold text-blue-600">Kuis Pembelajaran</h2>
           <p class="mt-2 text-gray-700">Uji pengetahuan Anda melalui kuis interaktif.</p>
-        </div>
+        </a>
   
-        <div class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
+        <a href="user/belajar" class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
             <img src="/assets/Belajar.jpg" alt="">
           <h2 class="text-xl font-semibold text-blue-600">Video Pembelajaran</h2>
           <p class="mt-2 text-gray-700">Tonton video untuk memahami materi lebih dalam.</p>
-        </div>
+        </a>
   
-        <div class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
+        <a href="#" class="bg-white p-6 rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition duration-300">
             <img src="/assets/Tutor.jpg" alt="">
           <h2 class="text-xl font-semibold text-blue-600">AI Tutor</h2>
           <p class="mt-2 text-gray-700">Interaksi langsung dengan AI untuk membantu belajar Anda.</p>
-        </div>
+        </a>
       </div>
     </div>
   </SectionWrapper>

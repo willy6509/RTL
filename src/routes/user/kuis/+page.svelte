@@ -9,6 +9,9 @@
         footer.classList.add('hidden');
         }
     });
+    function reroute(href) {
+    window.location.href = href;
+  }
 
   // Variabel untuk mengelola status kuis
   let currentQuestionIndex = 0; // Menyimpan indeks pertanyaan saat ini
@@ -84,7 +87,7 @@
         </button>
         <!-- Tombol untuk kembali ke halaman sebelumnya -->
         <button
-          on:click={goBack}
+        on:click={() => reroute('/user')}
           class="w-full px-4 py-2 bg-gray-400 text-white rounded-lg hover:bg-gray-500"
         >
           Kembali
