@@ -12,8 +12,8 @@
             Gunakan<span class="text-sky-400">AI Tutor</span>
         </h2>
         <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto- w-full">
-            Belajar lo babi dah dikasih ai juga sialan. <span class="italic">Belajar-belajar puqi, klo gua mah malas</span>
-            mending tidur dah.
+            Belajar Dengan <span class="italic text-sky-400">Room To Learn</span>
+            Lebih Menarik dan menyenangkan.
         </p>
         <CtAs />
         <div class="flex items-center justify-center gap-2 text-base">
